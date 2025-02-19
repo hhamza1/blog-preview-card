@@ -57,6 +57,12 @@ body{
 .content h3 {
     padding: 0;
     margin: 0;
+    
+}
+
+.content h3:hover {
+    cursor: pointer;
+    color: #F4D04E;
 }
 
 .content p {
