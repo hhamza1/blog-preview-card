@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/hhamza1/blog-preview-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://hhamza1.github.io/blog-preview-card/)
 
 ## Built With
 
