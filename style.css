@@ -1,2 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    background-color: #F4D04E;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 150%;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #111;
+    background-color: #fff;
+    justify-content: center;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 8px 8px 0px #111;
+    border-radius: 20px;
+}
+
+.blog-img-container {position: relative; padding-bottom: 12px;}
+.blog-img-container img  {width: 100%; border-radius: 10px;}
+
+.article-info {
+    padding: 12px 0;
+}
+
+.tag {
+    background-color: #F4D04E;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.date {
+    padding-top: 12px;
+    padding-bottom: 6px;
+
+}
+
+.content{
+    padding-top: 6px;
+}
+
+.content h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.content p {
+    color: #6B6B6B;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.author-info {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.author-info span {padding-left:  12px; }
+.author-info img {width: 32px;}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width: 768px) {
+
+    .text-preset-1 {
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0px;
+    }
+    
+    .text-preset-2 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0px;
+        font-weight: 500;
+    }
+    
+    .text-preset-3 {
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0px;
+    }
+    
+    .text-preset-3-bold {
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0px;
+        font-weight: 800;
+    }
+
+    .content p {width: 327px;}
+
+}
